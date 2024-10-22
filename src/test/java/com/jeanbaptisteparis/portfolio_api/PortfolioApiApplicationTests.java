@@ -1,10 +1,10 @@
-package com.jeanbaptisteparis.potfolio_api;
+package com.jeanbaptisteparis.portfolio_api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PotfolioApiApplicationTests {
+class PortfolioApiApplicationTests {
 
 	@Test
 	void contextLoads() {
