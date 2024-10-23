@@ -15,7 +15,8 @@ public class EmailController {
     private EmailService emailService;
 
     @PostMapping("/contact")
-    public void sendEmail(@RequestBody Email email) {
+    public String sendEmail(@RequestBody Email email) {
         emailService.saveEmail(email);
+        return "Email enregistré avec succcès";
     }
 }
